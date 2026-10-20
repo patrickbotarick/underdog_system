@@ -93,17 +93,24 @@ test('PWA instala cache estático e mantém limites offline', async ({ page, con
       .map((request) => new URL(request.url).pathname + new URL(request.url).search);
   });
   expect(cachedPaths).toContain('/index.html');
+  expect(cachedPaths).toContain('/brand/underdog-logo.png');
   expect(
     cachedPaths.every(
       (path) =>
         path === '/index.html' ||
         path === '/manifest.webmanifest' ||
+        path === '/brand/underdog-logo.png' ||
         path.startsWith('/assets/') ||
         path.startsWith('/icons/'),
     ),
   ).toBe(true);
   await context.setOffline(true);
   await page.goto('/agendamento');
+  const logo = page.getByRole('img', { name: 'Underdog Barbearia' }).first();
+  await expect(logo).toBeVisible();
+  expect(
+    await logo.evaluate((image: HTMLImageElement) => image.complete && image.naturalWidth === 640),
+  ).toBe(true);
   await expect(page.getByRole('status')).toContainText('Você está offline');
   await expect(page.getByRole('button', { name: 'Agendamento indisponível' })).toBeDisabled();
   await context.setOffline(false);

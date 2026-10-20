@@ -50,4 +50,6 @@ Tipografia de sistema (`Segoe UI`, Arial, sans-serif) dispensa downloads e rastr
 
 Layout é verificado a partir de 360px, em viewport móvel e desktop. Axe faz revisão automatizada WCAG A/AA; auditoria humana com leitor de tela, dispositivos reais e homologação da marca continua necessária.
 
-Não foi encontrada logo oficial no repositório. Solicitar ao proprietário o arquivo original e a autorização para uso. `public/brand/README.md` reserva o local. Não criar lobo, lettering substituto ou ilustração fictícia. O nome aparece como texto comum; o painel editorial usa apenas o número da fase, sem símbolo de marca. Ícones técnicos geométricos da PWA são provisórios e deverão ser substituídos por exportações oficiais autorizadas.
+Logo oficial recebida do proprietário em 20/10/2026 e incorporada como `public/brand/underdog-logo.png`. A origem e o SHA-256 estão registrados em `public/brand/README.md`. O PNG de 640 × 427 preserva o fundo preto e a composição completa do lobo, lettering e “Barbearia”. O componente `BrandLogo` aplica dimensionamento proporcional e texto alternativo no cabeçalho, rodapé, espaços de trabalho e painel da home. Nenhum recorte, filtro, redesenho ou marca substituta foi produzido.
+
+A apresentação final depende de homologação visual. Ícones geométricos de instalação continuam provisórios: solicitar versões oficiais quadradas/maskable adequadas a tamanhos pequenos, sem recortar automaticamente o original recebido.

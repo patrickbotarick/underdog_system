@@ -42,7 +42,7 @@ Proibir credenciais, chaves privadas, backup, dumps SQL reais, dados pessoais e 
 
 ## PWA e fronteira de cache
 
-`scripts/build-pwa.mjs` gera `dist/sw.js` com hash do conteúdo e allowlist exata: `index.html` estático, manifest, ícones e assets do build. O worker não faz cache runtime de respostas de navegação ou APIs. Apenas rotas conhecidas de shells podem receber `index.html` precacheado como fallback offline. Qualquer query string, Authorization, método diferente de GET ou outra origem é ignorado pelo worker. Rotas privadas reais não têm fallback offline. Não há persistência de formulários, dados ou tokens.
+`scripts/build-pwa.mjs` gera `dist/sw.js` com hash do conteúdo e allowlist exata: `index.html` estático, manifest, logo oficial pública, ícones e assets do build. O worker não faz cache runtime de respostas de navegação ou APIs. Apenas rotas conhecidas de shells podem receber `index.html` precacheado como fallback offline. Qualquer query string, Authorization, método diferente de GET ou outra origem é ignorado pelo worker. Rotas privadas reais não têm fallback offline. Não há persistência de formulários, dados ou tokens.
 
 Uma atualização fica aguardando até o usuário clicar em “Atualizar agora”; o worker então troca a versão, remove caches antigos do próprio namespace e recarrega a página. Outras aplicações/caches são preservados. Erro de registro tem mensagem de indisponibilidade. A primeira instalação exige acesso online; offline só apresenta a interface, sem ações comerciais. O desenvolvimento não registra worker para evitar cache antigo de código.
 

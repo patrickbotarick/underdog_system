@@ -80,8 +80,8 @@ export function PwaStatus() {
         <p>
           Em um endereço HTTPS, use “Instalar aplicativo” no navegador. No Safari do iPhone, toque
           em Compartilhar e “Adicionar à Tela de Início”. A disponibilidade depende do navegador. O
-          ícone atual é técnico e provisório; a logo oficial está pendente. A instalação não
-          habilita operações comerciais.
+          ícone de instalação atual é técnico e provisório. A instalação não habilita operações
+          comerciais.
         </p>
       </details>
     </>

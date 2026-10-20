@@ -50,7 +50,7 @@ src/modules/             auth, booking, barbers, clients, admin,
                          finance, inventory, shop, notifications
 src/shared/              Componentes, tokens, primitivos e PWA
 src/test/                Ambiente React Testing Library
-public/brand/            Local reservado à logo oficial
+public/brand/            Logo oficial original e registro de origem
 public/icons/            Ícones técnicos provisórios da PWA
 scripts/                 Build seguro da PWA e revisão do repositório
 e2e/                     Playwright e axe (desktop, mobile e offline)
@@ -67,7 +67,7 @@ docs/                    Decisões, contratos, regras e homologação
 | Prévia administrativa    | `/previa/admin`, `/agendamentos`, `/equipe`, `/servicos`, `/clientes`, `/financeiro`, `/estoque`, `/configuracoes` sob esse prefixo |
 | Acesso real indisponível | `/admin/*`, `/barbeiro/*`                                                                                                           |
 
-As prévias são públicas, isoladas e identificadas como demonstração. Não constituem autorização de acesso. Não há seleção de papéis, login simulado ou armazenamento de credenciais. A logo oficial não foi encontrada: o nome aparece como texto e os ícones técnicos não representam a marca oficial.
+As prévias são públicas, isoladas e identificadas como demonstração. Não constituem autorização de acesso. Não há seleção de papéis, login simulado ou armazenamento de credenciais. A logo oficial fornecida pelo proprietário está integrada sem alteração do arquivo original; a origem está registrada em `public/brand/README.md`. Os ícones técnicos de instalação continuam provisórios.
 
 ## Documentação
 

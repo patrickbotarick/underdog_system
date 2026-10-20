@@ -4,6 +4,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 const files = [
   '/index.html',
   '/manifest.webmanifest',
+  '/brand/underdog-logo.png',
   '/icons/app-192.png',
   '/icons/app-512.png',
   '/icons/app-maskable-512.png',

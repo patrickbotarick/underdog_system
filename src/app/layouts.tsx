@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router';
 import { Icon } from '../shared/components/Icon';
+import { BrandLogo } from '../shared/components/BrandLogo';
 import { adminNavigation, barberNavigation, publicNavigation } from './navigation';
 
 export function PublicLayout() {
@@ -11,8 +12,8 @@ export function PublicLayout() {
     <>
       <header className="site-header">
         <div className="container header-row">
-          <Link className="brand-text" to="/" title="Página inicial">
-            UNDERDOG<span>BARBEARIA / EXPERIÊNCIA DIGITAL</span>
+          <Link className="brand-link" to="/" title="Página inicial">
+            <BrandLogo />
           </Link>
           <button
             className="menu-toggle"
@@ -46,7 +47,7 @@ export function PublicLayout() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <span className="brand-text">UNDERDOG</span>
+            <BrandLogo variant="footer" />
             <p>Identidade. Atitude. Cuidado.</p>
           </div>
           <div>
@@ -75,8 +76,8 @@ export function WorkspaceLayout({ profile }: { profile: 'barber' | 'admin' }) {
   return (
     <div className="workspace">
       <aside className="workspace-sidebar">
-        <Link className="brand-text" to="/">
-          UNDERDOG<span>ESPAÇO DE TRABALHO</span>
+        <Link className="brand-link" to="/" title="Página inicial">
+          <BrandLogo variant="workspace" />
         </Link>
         <p className="eyebrow sidebar-label">{name}</p>
         <nav aria-label={`Prévia: ${name}`}>

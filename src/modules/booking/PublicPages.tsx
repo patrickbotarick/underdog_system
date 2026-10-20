@@ -5,6 +5,7 @@ import {
   UnavailableState,
 } from '../../shared/components/Primitives';
 import { Icon } from '../../shared/components/Icon';
+import { BrandLogo } from '../../shared/components/BrandLogo';
 
 export function HomePage() {
   return (
@@ -38,9 +39,7 @@ export function HomePage() {
             <span>01 / FUNDAÇÃO</span>
           </div>
           <div className="editorial-main">
-            <span className="editorial-outline" aria-hidden="true">
-              01
-            </span>
+            <BrandLogo variant="hero" />
             <p>
               ATITUDE NO ESTILO.
               <br />

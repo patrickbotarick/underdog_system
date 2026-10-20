@@ -33,6 +33,8 @@ O resultado do Git e do push é informado no relatório de entrega. O status rem
 
 ## Rastreabilidade da entrega
 
+Atualização da marca em 20/10/2026: logo original de 640 × 427 integrada e conferida por SHA-256, sem alteração do PNG. Typecheck, lint, formatação, 46 testes Vitest, build e oito testes Playwright novamente aprovados. Capturas desktop/mobile revisadas; logo também carregada offline. O precache agora contém oito arquivos estáticos, incluindo somente o PNG público adicional. Ícones oficiais de instalação e homologação visual continuam pendentes.
+
 - Base documental: `56ba29cd67a037935da60574a8b47cc249fbd9c5`.
 - Regras aprovadas: `658c949` — `docs: record approved business rules for phase 01`.
 - Implementação validada: `32095c0` — `feat: build navigable phase 01 foundation`.
@@ -42,7 +44,7 @@ O resultado do Git e do push é informado no relatório de entrega. O status rem
 
 ## Homologação pendente
 
-- Receber logo oficial e autorização; substituir ícones técnicos provisórios.
+- Logo oficial recebida e integrada; homologar sua aplicação e obter ícones oficiais de instalação.
 - Aprovar layout, textos, tokens e navegação em aparelhos reais e leitor de tela.
 - Homologar parâmetros comerciais pendentes e infraestrutura/custos.
 - Revisar o workflow remoto e aprovar a integração da branch em `main`.

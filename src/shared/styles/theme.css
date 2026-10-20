@@ -118,6 +118,41 @@ svg {
   margin-top: 10px;
   color: var(--color-muted);
 }
+.brand-link {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+.brand-logo {
+  display: block;
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.brand-logo--footer {
+  width: 144px;
+}
+.brand-logo--workspace {
+  width: 168px;
+}
+.brand-logo--hero {
+  width: min(100%, 300px);
+  margin-inline: auto;
+}
+.editorial-main:has(.brand-logo) {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 18px;
+}
+.editorial-main:has(.brand-logo) p {
+  margin-top: 0;
+}
+.workspace-sidebar > .brand-link {
+  display: flex;
+  justify-content: center;
+}
 .public-nav {
   display: flex;
   align-items: center;

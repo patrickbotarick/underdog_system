@@ -10,7 +10,7 @@ As fases são sequenciais para homologação; módulos podem ser preparados prev
 - [x] Direção visual preto/branco/dourado proposta.
 - [x] Repositório remoto definido.
 - [ ] Homologar regras comerciais com proprietário.
-- [ ] Obter arquivo oficial da logo e autorização de uso no produto.
+- [x] Receber logo oficial fornecida pelo proprietário para uso no projeto (20/10/2026).
 - [ ] Validar arquitetura, política de dados e custos de operação.
 
 ## Fase 01 — Fundação do produto

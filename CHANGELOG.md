@@ -2,13 +2,15 @@
 
 ## Unreleased — Fase 01
 
+- Logo oficial fornecida pelo proprietário integrada no cabeçalho, rodapé, prévias e home, com original preservado e suporte ao cache estático offline.
+
 - Regras comerciais aprovadas identificadas por código, com hipóteses históricas e pendências separadas.
 - Fundação React, TypeScript strict, Vite, Tailwind, React Router, ESLint, Prettier, Vitest e Testing Library.
 - Home editorial Dark Premium, navegação responsiva, estados vazios e prévias isoladas de barbeiro e administrador.
 - Contratos por domínio para autenticação, agenda, atendimentos, financeiro, estoque, retirada e auditoria.
 - PWA com manifest, ícones técnicos provisórios, cache estático explícito, aviso offline e atualização consentida.
 - GitHub Actions e verificações de componentes, rotas, limites de acesso, responsividade, acessibilidade e cache.
-- Logo oficial, backend, identidade telefônica, RLS e operações comerciais continuam pendentes.
+- Homologação visual, ícones oficiais de instalação, backend, identidade telefônica, RLS e operações comerciais continuam pendentes.
 
 ## Unreleased — Fase 00
 
