@@ -51,3 +51,6 @@ data/
 private/
 sensitive/
 exports/
+playwright-report/
+test-results/
+*.tsbuildinfo

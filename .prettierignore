@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+underdog_fase00_documentacao
+package-lock.json
