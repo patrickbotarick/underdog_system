@@ -31,6 +31,15 @@ git fsck --full
 
 O resultado do Git e do push é informado no relatório de entrega. O status remoto do GitHub Actions deve ser confirmado para o commit final antes do aceite de merge.
 
+## Rastreabilidade da entrega
+
+- Base documental: `56ba29cd67a037935da60574a8b47cc249fbd9c5`.
+- Regras aprovadas: `658c949` — `docs: record approved business rules for phase 01`.
+- Implementação validada: `32095c0` — `feat: build navigable phase 01 foundation`.
+- Branch de entrega: `feat/phase-01-foundation`; fechamento documental registrado em commit posterior, consultável por `git log`.
+- Normalização LF aplicada a todos os arquivos de texto para evitar diferenças de formatação entre clones Windows/Linux.
+- Histórico e documentos oficiais preservados; nenhuma operação de merge em `main`, force-push ou tag estável faz parte desta entrega.
+
 ## Homologação pendente
 
 - Receber logo oficial e autorização; substituir ícones técnicos provisórios.
